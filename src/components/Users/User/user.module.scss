@@ -1,0 +1,65 @@
+.container{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-bottom: 10px;
+  padding: 5px;
+  box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.3);
+  .control{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    .photo{
+      // width: 50px;
+      height: 80px;
+      object-fit: cover;
+    }
+    .follow,
+    .unfollow{
+      font-size: 0.8em;
+      margin-top: 10px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      padding: 5px 0;
+      color: azure;
+      text-shadow: 1px 1px 1px grey;
+      transition: all 0.3s;
+      &:hover{
+        box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.7);
+      }
+    }
+    .follow{
+      background-color: aquamarine;
+    }
+    .unfollow{
+      background-color: crimson;
+    }
+  }
+  
+  .user_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    .fullName{
+    
+    }
+    
+    .status{
+    
+    }
+    
+    .city{
+    
+    }
+    
+    .country{
+    
+    }
+  
+  }
+
+}  
+
+
+

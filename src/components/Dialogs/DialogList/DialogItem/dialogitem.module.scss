@@ -1,0 +1,11 @@
+._item{
+    color: #fff;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+._item--active{
+    color: black;
+}

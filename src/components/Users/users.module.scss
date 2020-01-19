@@ -1,0 +1,11 @@
+.list{
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+}
+.page{
+    padding: 20px;
+    &__select{
+        font-weight: bold;
+    }
+}

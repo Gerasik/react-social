@@ -1,0 +1,27 @@
+.wrap{
+    background-color: #fff;
+}
+
+.item{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(253, 184, 184);
+    border-radius: 5px;
+}
+
+.form{
+    display: flex;
+    margin: 5px;
+    justify-content: stretch;
+    textarea{
+        width: 100%;
+    }
+    button {
+        background-color: darkturquoise;
+        border: none;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
